@@ -1,12 +1,5 @@
-import { Mail, Notifications, Pets } from "@mui/icons-material";
 import {
   AppBar,
-  Avatar,
-  Badge,
-  Box,
-  InputBase,
-  Menu,
-  MenuItem,
   styled,
   Toolbar,
   Typography,
@@ -21,7 +14,6 @@ const StyledToolbar = styled(Toolbar)({
 
 
 const Navbar = () => {
-  const [open, setOpen] = useState(false);
   return (
     <AppBar position="sticky">
       <StyledToolbar>
@@ -44,9 +36,6 @@ const Navbar = () => {
           >
            Text To Nails
           </Typography>
-
-       
-        {/* <Pets sx={{ display: { xs: "block", sm: "none" } }} /> */}
       </StyledToolbar>
    
     </AppBar>
